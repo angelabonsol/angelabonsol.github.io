@@ -1,3 +1,6 @@
+/* header and navigation bar font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=WindSong:wght@500&display=swap');
+
 body {
   font-size: 1em;
   font-weight: normal;
@@ -8,13 +11,28 @@ body {
   background-color: white;
 }
 
-/* Nav Style*/
+/* Header Style*/
+h1 {
+    font-family: 'WindSong', cursive;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 1500;
+    margin-top: 50px;
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+  }
+
+.h-title {
+    text-align: center;
+    position: relative;
+}
+
+/* Navigation Bar Style*/
 .h-nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 18px;
     background-color: #ffebf6;
-
 }
 .h-nav-wrapper {
     display: flex;
@@ -26,8 +44,9 @@ body {
 }
 .h-nav-bar > .h-nav-wrapper > div {
     margin-right: 20px;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
+    letter-spacing: 1.75px;
+    font-size: 1.5em;
+    /* text-transform: uppercase; */
 }
 .h-nav-link-wrapper {
     height: 22px;
@@ -35,6 +54,7 @@ body {
     transition: border-bottom 0.5s;
 }
 .h-nav-link-wrapper a{
+    font-family: 'Raleway', sans-serif;
     color: black;
     text-decoration: none;
     transition: color 0.5s;
@@ -42,13 +62,6 @@ body {
  .h-nav-link-wrapper a:hover {
     color: #8a8a8a;
  }
-
-
-footer{
-  display: block;
-  text-align: center;
-
-}
 
 .footer{
     display: block;
@@ -62,4 +75,5 @@ footer{
     font-weight: lighter;
     text-align: left;
     height: 20px;
+    color: #8a8a8a;
 }
