@@ -1,5 +1,5 @@
 /* header and navigation bar font */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Lora:wght@600&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Lora:wght@400;600&family=Parisienne&display=swap');
 
 body {
   text-align: center;
@@ -10,11 +10,13 @@ body {
 h1 {
     font-family: 'Parisienne', cursive;
     text-align: center;
-    font-size: 4em;
-    /* font-weight: 1500; */
+    font-size: 5em;
+    font-weight: 1500;
     /* margin-top: 40px; */
     /* padding-bottom: 10px; */
     color: #fa96cd;
+    padding-top: 28px;
+    padding-bottom: 15px;
   }
 
 .h-title {
@@ -24,17 +26,27 @@ h1 {
 
 /* Intro paragraph */
 h2{
-  font-size: 1.5em;
-  font-weight: normal;
-  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  font-family: 'Lora', serif;
+  font-weight: 600;
   letter-spacing: 1.75px;
-  color: #fa96cd;
+  color: #828282;
+  padding: 40px; /* adds border gaps around */
+}
+.intro-para{
+  font-size: 1.5em;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  letter-spacing: 1.75px;
+  color: #828282;
+  padding-bottom: 40px; /* adds border gaps around */
 }
 /* Navigation Bar Style*/
 .h-nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 18px;
+    padding: 25px;
     background-color: #ffebf6;
 }
 .h-nav-wrapper {
@@ -58,6 +70,7 @@ h2{
 }
 .h-nav-link-wrapper a{
     font-family: 'Lora', serif;
+    font-weight: 600;
     color: #737373; /* dark grey */
     opacity: 95%;
     text-decoration: none;
@@ -69,13 +82,29 @@ h2{
     color: #fa96cd; /*pink highlight*/
  }
 
-.footer{
-    display: block;
-    background-color: #ffebf6;
-    opacity: 90%;
-    padding: 25px;
+/* closes the gaps of nav bar and footer */
+ * {
+     margin:0;
+     padding:0;
+     font-size:100%;
+     font:inherit;
+     vertical-align:baseline;
+     box-sizing:border-box;
+ }
 
-}
+ #footer{
+   position: fixed;
+   padding: 35px;
+   /* bottom: 0px;
+   left: 0px;
+   right: 0px;
+   margin-bottom: 0px; */
+   width: 100%;
+   display: block;
+   background-color: #ffebf6;
+   opacity: 90%;
+ }
+
 .f-container {
     font-family: 'Raleway', sans-serif;
     font-size: 75%;
