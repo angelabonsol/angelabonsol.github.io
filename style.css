@@ -118,7 +118,7 @@ h2{
   font-weight: 400;
   letter-spacing: 1.75px;
   color: #828282;
-  padding-bottom: 300px; /* adds border gaps around */
+  padding-bottom: 100px; /* adds border gaps around */
 }
 .hobbies-para{
   font-size: 1.5em;
@@ -140,7 +140,7 @@ h2{
 }
 
  #footer{
-   position: fixed;
+   position: absolute;
    padding: 55px;
    /* bottom: 0px;
    left: 0px;
