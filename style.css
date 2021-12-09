@@ -101,7 +101,7 @@ h2{
   color: #828282;
   padding: 60px;
 }
-.intro-para a:link, a:visited{
+.intro-para a:link, .intro-para a:visited{
   font-size: 1em;
   color: #fa96cd;
 }
@@ -144,7 +144,7 @@ h2{
   padding-top: 50px;
   padding-bottom: 100px; /* adds border gaps around */
 }
-.resume-para a:link, a:visited{
+.resume-para a:link, .resume-para a:visited{
   font-size: 1em;
   color: #fa96cd;
 }
