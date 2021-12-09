@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Lora:wght@400;600&family=Parisienne&display=swap');
 
 body {
-  text-align: center;
+  /* text-align: center; */
   background-color: white;
 }
 
@@ -14,6 +14,12 @@ body {
      font:inherit;
      vertical-align:baseline;
      box-sizing:border-box;
+ }
+
+/* Highlighting specific words*/
+ mark{
+   color: #fa96cd;
+   background-color: white; /* default highlight color is yellow */
  }
 
 /* Header Style*/
@@ -34,24 +40,17 @@ h1 {
     position: relative;
 }
 
-/* Intro paragraph */
 h2{
+  text-align: center;
   font-size: 2em;
   font-family: 'Lora', serif;
   font-weight: 600;
   letter-spacing: 1.75px;
   color: #828282;
-  padding: 40px; /* adds border gaps around */
+  padding-top: 40px; /* adds border gaps around */
+  /* text-decoration: underline; */
 }
-.intro-para{
-  font-size: 1.5em;
-  font-weight: lighter;
-  font-family: 'Lora', serif;
-  font-weight: 400;
-  letter-spacing: 1.75px;
-  color: #828282;
-  padding-bottom: 300px; /* adds border gaps around */
-}
+
 /* Navigation Bar Style*/
 .h-nav-bar {
     display: flex;
@@ -92,7 +91,26 @@ h2{
     color: #fa96cd; /*pink highlight*/
  }
 
-/* body for other pages */
+/* Home paragraph */
+.intro-para{
+  font-size: 1.25em;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  letter-spacing: 1.75px;
+  color: #828282;
+  padding: 60px;
+}
+.intro-para a:link, a:visited{
+  font-size: 1em;
+  color: #fa96cd;
+}
+.intro-para a:hover{
+  font-size: 1em;
+  color: #737373;
+}
+
+/* About Page */
 .about-para{
   font-size: 1.5em;
   font-weight: lighter;
@@ -100,8 +118,10 @@ h2{
   font-weight: 400;
   letter-spacing: 1.75px;
   color: #828282;
-  padding-bottom: 300px; /* adds border gaps around */
+  padding: 60px;
 }
+
+/* Projects Page */
 .projects-para{
   font-size: 1.5em;
   font-weight: lighter;
@@ -109,17 +129,31 @@ h2{
   font-weight: 400;
   letter-spacing: 1.75px;
   color: #828282;
-  padding-bottom: 300px; /* adds border gaps around */
+  padding: 60px;
 }
+
+/* Resume Page */
 .resume-para{
+  text-align: center;
   font-size: 1.5em;
   font-weight: lighter;
   font-family: 'Lora', serif;
   font-weight: 400;
   letter-spacing: 1.75px;
   color: #828282;
+  padding-top: 50px;
   padding-bottom: 100px; /* adds border gaps around */
 }
+.resume-para a:link, a:visited{
+  font-size: 1em;
+  color: #fa96cd;
+}
+.resume-para a:hover{
+  font-size: 1em;
+  color: #737373;
+}
+
+/* Hobbies Page */
 .hobbies-para{
   font-size: 1.5em;
   font-weight: lighter;
@@ -127,8 +161,10 @@ h2{
   font-weight: 400;
   letter-spacing: 1.75px;
   color: #828282;
-  padding-bottom: 300px; /* adds border gaps around */
+  padding: 60px;
 }
+
+/* Contact Page */
 .contact-para{
   font-size: 1.5em;
   font-weight: lighter;
@@ -136,7 +172,7 @@ h2{
   font-weight: 400;
   letter-spacing: 1.75px;
   color: #828282;
-  padding-bottom: 300px; /* adds border gaps around */
+  padding: 60px;
 }
 
  #footer{
