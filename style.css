@@ -50,6 +50,11 @@ h2{
   padding-top: 40px; /* adds border gaps around */
   /* text-decoration: underline; */
 }
+h3{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 25px;
+}
 
 /* Navigation Bar Style*/
 .h-nav-bar {
@@ -165,11 +170,6 @@ h2{
 }
 
 /* Contact Page */
-h3{
-  text-decoration: underline;
-  font-weight: bold;
-  font-size: 25px;
-}
 .contact-para{
   text-align: center;
   font-size: 1.5em;
@@ -207,6 +207,9 @@ h3{
   display: none;
   font-size: 10px;
   color: #737373;
+}
+#submit{
+  color: #fa96cd;
 }
 
  #footer{
