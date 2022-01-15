@@ -166,7 +166,7 @@ h3{
   font-weight: 400;
   letter-spacing: 1.75px;
   color: #828282;
-  padding: 30px 30px 0px 30px; 
+  padding: 30px 30px 0px 30px;
   overflow: hidden;
 }
 .hobbies-picture{
@@ -177,7 +177,7 @@ h3{
 }
 .hobbies-picture img{
   padding: 3px;
-  width: 150px;
+  max-height:150px;
   height: auto;
 }
 
