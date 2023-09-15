@@ -4,6 +4,8 @@
 body {
   /* text-align: center; */
   background-color: white;
+  position: relative;
+  min-height: 100vh;
 }
 
 /* closes the gaps of nav bar and footer */
@@ -159,7 +161,7 @@ h3{
 }
 
 /* Hobbies Page */
-.hobbies-para{
+.hobbies-sec{
   font-size: 1.5em;
   font-weight: lighter;
   font-family: 'Lora', serif;
@@ -223,16 +225,17 @@ h3{
 #submit{
   color: #fa96cd;
 }
+/*All Paras - page container */
+.intro-para, .about-para, .projects-para, .hobbies-para, .resume-para, .contact-para{
+  padding-bottom: 160px;
+}
 
  #footer{
    position: absolute;
    padding: 55px;
-   /* bottom: 0px;
-   left: 0px;
-   right: 0px;
-   margin-bottom: 0px; */
+   bottom: 0;
+   height: 0.5rem;
    width: 100%;
-   display: block;
    background-color: #ffebf6;
    opacity: 90%;
  }
