@@ -100,21 +100,35 @@ h3{
 
 /* Home paragraph */
 .intro-para{
-  font-size: 1.25em;
+  font-size: 1.2em;
   font-weight: lighter;
   font-family: 'Lora', serif;
   font-weight: 400;
   letter-spacing: 1.75px;
   color: #828282;
-  padding: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 60px;
 }
 .intro-para a:link, .intro-para a:visited{
-  font-size: 1em;
-  color: #fa96cd;
+  color: #fa96cd; 
+}
+.intro a:link, .intro a:visited{
+  font-size: small;
 }
 .intro-para a:hover{
-  font-size: 1em;
   color: #737373;
+}
+.headshot img{
+  float: left;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  height: 250px;
+  /* border-radius: 15px;
+  border: 3px solid #ffebf6; */
+  /* height:200px;
+  width:200px; */
+  /* background-color: #ffebf6; */
 }
 
 /* About Page */
