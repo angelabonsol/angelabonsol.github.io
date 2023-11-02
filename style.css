@@ -55,7 +55,7 @@ h2{
 h3{
   text-decoration: underline;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 /* Navigation Bar Style*/
@@ -248,7 +248,7 @@ h3{
    position: absolute;
    padding: 55px;
    bottom: 0;
-   height: 0.5rem;
+   height: 7.5rem;
    width: 100%;
    background-color: #ffebf6;
    opacity: 90%;
@@ -258,9 +258,10 @@ h3{
     font-family: 'Raleway', sans-serif;
     font-size: 75%;
     font-weight: lighter;
-    text-align: left;
+    text-align: center;
     height: 20px;
     color: #8a8a8a;
+    margin-bottom: 10px;
 }
 /*
 .fa-footer{
