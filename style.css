@@ -55,7 +55,7 @@ h2{
 h3{
   text-decoration: underline;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 /* Navigation Bar Style*/
@@ -109,6 +109,9 @@ h3{
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 60px;
+}
+.intro h3{
+  font-size: 18px;
 }
 .intro-para a:link, .intro-para a:visited{
   color: #fa96cd; 
