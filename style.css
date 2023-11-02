@@ -14,7 +14,7 @@ body {
      padding:0;
      font-size:100%;
      font:inherit;
-     vertical-align:baseline;
+     vertical-align:top;
      box-sizing:border-box;
  }
 
@@ -222,6 +222,19 @@ h3{
 .fa:hover {
     opacity: 0.7;
 }
+.mes-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leave-mes-title{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #828282;
+}
 .leave-mes{
   width: 600px;
   height: 450px;
@@ -231,14 +244,18 @@ h3{
   border-style: dashed;
   background: #fff5fa;
 }
+tr>td{
+  padding-bottom: .5em;
+  padding-left: .3em;
+}
 .form-to-email a:link, .form-to-email a:visited, .form-to-email a:hover{
   display: none;
   font-size: 10px;
   color: #737373;
 }
-#submit{
+/* #submit{
   color: #fa96cd;
-}
+} */
 /*All Paras - page container */
 .intro-para, .about-para, .projects-para, .hobbies-para, .resume-para, .contact-para{
   padding-bottom: 160px;

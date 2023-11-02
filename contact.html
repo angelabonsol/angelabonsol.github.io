@@ -78,46 +78,66 @@
         <br>
         <br>
         <br>
-        <div style="text-align: center; padding-left: 150px; padding-right: 150px;">
-        <div class="leave-mes">
-          <h3 style="text-decoration:none">Leave a Message!</h3>
-          <br>
-          <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
-          <script type="text/javascript">
-          function ValidateForm(frm) {
-          if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
-          if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
-          if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
-          if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
-          return true; }
-          </script>
-          <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
-          <tr> <td>
-          <label for="Name">Name*:</label>
-          </td> <td>
-          <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
-          </td> </tr> <tr> <td>
-          <label for="PhoneNumber">Phone number:</label>
-          </td> <td>
-          <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
-          </td> </tr> <tr> <td>
-          <label for="FromEmailAddress">Email address*:</label>
-          </td> <td>
-          <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
-          </td> </tr> <tr> <td>
-          <label for="Message">Message*:</label>
-          </td> <td>
-          <textarea name="Message" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
-          </td> </tr> <tr> <td>
-          <div style="font-size:15px">* - required fields</div>
-          </td> <td>
-          <div class="form-to-email" style="float:right;"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
-          <input name="skip_Submit" type="submit" value="Submit" id="submit"/>
-          <script src="https://www.100forms.com/js/FORMKEY:3D4DKAF8ETKN/SEND:angelabonsol1@gmail.com" type="text/javascript"></script>
-          </td> </tr>
-          </table>
-          </form>
-        </div>
+        <div class="mes-content">
+          <div class="leave-mes">
+            <div class="leave-mes-title">Leave a Message!</div>
+            <br>
+            <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+            <script type="text/javascript">
+            function ValidateForm(frm) {
+            if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+            if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+            if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+            if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+            return true; }
+            </script>
+            <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+            <tr> 
+              <td>
+                <label for="Name">Name*:</label>
+              </td> 
+              <td>
+                <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+              </td> 
+            </tr> 
+            <tr> 
+              <td>
+                <label for="PhoneNumber">Phone number:</label>
+              </td> 
+              <td>
+                <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+              </td> 
+            </tr> 
+            <tr> 
+              <td>
+                <label for="FromEmailAddress">Email address*:</label>
+              </td> 
+              <td>
+                <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+              </td> 
+            </tr> 
+            <tr> 
+              <td>
+                <label for="Message">
+                  Message*: <br>
+                  <div style="font-size:15px">* - required fields</div>
+                </label>
+              </td> 
+              <td>
+                <textarea name="Message" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+              </td> 
+            </tr> 
+            <tr> 
+              <td></td>
+              <td>
+                <div class="form-to-email" style="float:right;"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+                <input name="skip_Submit" type="submit" value="Submit" id="submit"/>
+                <script src="https://www.100forms.com/js/FORMKEY:3D4DKAF8ETKN/SEND:angelabonsol1@gmail.com" type="text/javascript"></script>
+              </td> 
+            </tr>
+            </table>
+            </form>
+          </div>
         </div>
       </p>
     </div>
