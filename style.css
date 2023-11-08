@@ -176,6 +176,10 @@ h3{
   font-size: 1em;
   color: #737373;
 }
+.resume-para img{
+  padding: 35px;
+  background: #ffebf6;
+}
 
 /* Hobbies Page */
 .hobbies-sec{
